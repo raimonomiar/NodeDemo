@@ -1,0 +1,19 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "A demo app.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "Demo"
+  ],
+  "author": "Ayush",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.1.8",
+    "graph-data-structure": "^1.9.0",
+    "typescript": "^3.7.5"
+  }
+}
