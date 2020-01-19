@@ -54,7 +54,6 @@ class NodeGraph {
             //Adding reachable nodes for each node.
             this.rela.push({ node : node, value: this.graph.depthFirstSearch([node])});
 
-            console.log(this.rela);
         });
 
         this.array = { root: this.root, leaf: this.leaf, rela: this.rela };
